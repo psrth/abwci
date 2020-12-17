@@ -3,8 +3,13 @@
 # General
 --------------------------------------------------------------*/
 
+:root{
+  --main: #578;
+  --scd: #fff;
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif; /* master body */
   color: #444444;
 }
 
@@ -18,7 +23,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Proxima Nova", sans-serif; /* header fonts */
 }
 
 /*--------------------------------------------------------------
@@ -54,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #262c4e;
+  background: var(--dark);
   padding: 10px 0;
   font-size: 14px;
 }
@@ -120,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Proxima Nova", sans-serif; /* poppin fonts */
   border-left: 8px solid #c76aec;
 }
 
@@ -158,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 13px 0 15px 25px;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Proxima Nova", sans-serif; /* poppin fonts */
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -473,7 +478,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: "Proxima Nova", sans-serif; /* header fonts */
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -548,7 +553,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Proxima Nova", sans-serif; /* poppin fonts */
 }
 
 .section-title h2::after {
@@ -828,7 +833,7 @@ section {
 .counts .count-box p {
   padding: 30px 0 0 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Proxima Nova", sans-serif; /* header fonts */
   font-size: 14px;
 }
 
@@ -838,7 +843,7 @@ section {
   margin-top: 20px;
   color: #7a7a7a;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Proxima Nova", sans-serif; /* poppin fonts */
   transition: ease-in-out 0.3s;
 }
 
@@ -909,7 +914,7 @@ section {
   font-weight: 700;
   font-size: 26px;
   color: #545454;
-  font-family: "Poppins", sans-serif;
+  font-family: "Proxima Nova", sans-serif; /* poppin fonts */
   margin-bottom: 20px;
 }
 
@@ -944,7 +949,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Proxima Nova", sans-serif; /* poppin fonts */
   color: #545454;
 }
 
@@ -1123,6 +1128,87 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Frequently Asked Questions
+--------------------------------------------------------------*/
+.faq .faq-list {
+	padding: 0 100px;
+}
+
+.faq .faq-list ul {
+	padding: 0;
+	list-style: none;
+}
+
+.faq .faq-list li + li {
+	margin-top: 15px;
+}
+
+.faq .faq-list li {
+	padding: 20px;
+	background: #fff;
+	border-radius: 4px;
+	position: relative;
+}
+
+.faq .faq-list a {
+	display: block;
+	position: relative;
+	font-family: "Proxima Nova", sans-serif; /* poppin fonts */
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	padding: 0 30px;
+	outline: none;
+}
+
+.faq .faq-list .icon-help {
+	font-size: 24px;
+	position: absolute;
+	right: 0;
+	left: 20px;
+	color: #76b5ee;
+}
+
+.faq .faq-list .icon-show,
+.faq .faq-list .icon-close {
+	font-size: 24px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.faq .faq-list p {
+	margin-bottom: 0;
+	padding: 10px 0 0 0;
+}
+
+.faq .faq-list .icon-show {
+	display: none;
+}
+
+.faq .faq-list a.collapsed {
+	color: #343a40;
+}
+
+.faq .faq-list a.collapsed:hover {
+	color: #1977cc;
+}
+
+.faq .faq-list a.collapsed .icon-show {
+	display: inline-block;
+}
+
+.faq .faq-list a.collapsed .icon-close {
+	display: none;
+}
+
+@media (max-width: 1200px) {
+	.faq .faq-list {
+		padding: 0;
+	}
+}
+
+/*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-title {
@@ -1254,7 +1340,7 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Raleway", sans-serif;
+  font-family: "Proxima Nova", sans-serif; /* header fonts */
   transition: 0.3s;
 }
 
@@ -2092,7 +2178,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Proxima Nova", sans-serif; /* header fonts */
   color: #fff;
 }
 
