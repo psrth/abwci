@@ -9,6 +9,10 @@
 	--scd2: #1361bb;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: "Open Sans", sans-serif; /* master body */
 	color: #444444;
@@ -115,7 +119,7 @@ h6 {
 }
 
 #topbar .contact-info i {
-	color: var(--scd);
+	color: #fff;
 	padding: 4px;
 }
 
@@ -524,9 +528,10 @@ h6 {
 }
 
 #hero .btn-get-started {
-	font-family: "Proxima Nova", sans-serif; /* header fonts */
+	font-family: "Proxima Nova", sans-serif; 
+	/* header fonts */
 	font-weight: 500;
-	font-size: 14px;
+	font-size: 20px;
 	letter-spacing: 1px;
 	display: inline-block;
 	padding: 12px 32px;
@@ -791,7 +796,7 @@ section {
 	margin-bottom: 0;
 }
 
-.services .icon-box:hover {
+/* .services .icon-box:hover {
 	background: var(--scd);
 	border-color: var(--scd);
 }
@@ -811,7 +816,7 @@ section {
 .services .icon-box:hover h4 a,
 .services .icon-box:hover p {
 	color: #fff;
-}
+} */
 
 /*--------------------------------------------------------------
 # Our Clients
