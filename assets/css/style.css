@@ -700,7 +700,7 @@ section {
 	margin-bottom: 0;
 }
 
-.featured .icon-box:hover {
+/* .featured .icon-box:hover {
 	background: var(--scd);
 }
 
@@ -708,7 +708,7 @@ section {
 .featured .icon-box:hover h3 a,
 .featured .icon-box:hover p {
 	color: #fff;
-}
+} */
 
 /*--------------------------------------------------------------
 # About
@@ -796,27 +796,6 @@ section {
 	margin-bottom: 0;
 }
 
-/* .services .icon-box:hover {
-	background: var(--scd);
-	border-color: var(--scd);
-}
-
-.services .icon-box:hover .icon {
-	background: #fff;
-}
-
-.services .icon-box:hover .icon i {
-	color: var(--scd);
-}
-
-.services .icon-box:hover .icon::before {
-	background: var(--scd2);
-}
-
-.services .icon-box:hover h4 a,
-.services .icon-box:hover p {
-	color: #fff;
-} */
 
 /*--------------------------------------------------------------
 # Our Clients
