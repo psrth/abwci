@@ -15,7 +15,6 @@ html {
 
 body {
 	font-family: "Open Sans", sans-serif; /* master body */
-	color: #444444;
 }
 
 .notice {
@@ -49,7 +48,7 @@ li {
 }
 
 a {
-	color: #948f8e;
+	/* color: #948f8e; */
 }
 
 a:hover {
