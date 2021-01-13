@@ -135,23 +135,23 @@
                   <h4>About your Organisation</h4>
                   <div class="row">
                     <div class="col form-group">
-                      <input name="name of organisation" type="text" class="form-control" placeholder="Name of your Organisation">
+                      <input name="name of organisation" type="text" class="form-control" placeholder="Name of your Organisation" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
                     </div>
                   </div>
                   <div class="row">
                     <div class="col form-group">
                         <p><strong>Ownership</strong> *</p>
-                        <input type="radio" id="male" name="gender" value="male">
+                        <input type="radio" id="male" name="Ownership" value="male">
                         <label for="male" style="font-size: 14px; opacity: 90%; margin-right: 10px;">Privately Held  </label>
-                        <input type="radio" id="female" name="gender" value="female">
+                        <input type="radio" id="female" name="Ownership" value="female">
                         <label for="female" style="font-size: 14px; opacity: 90%; margin-right: 10px;">Publicly Listed</label>
-                        <input type="radio" id="other" name="gender" value="other">
+                        <input type="radio" id="other" name="Ownership" value="other">
                         <label for="other" style="font-size: 14px; opacity: 90%; margin-right: 10px;">State-owned  </label>
-                        <input type="radio" id="male" name="gender" value="male">
+                        <input type="radio" id="male" name="Ownership" value="male">
                         <label for="male" style="font-size: 14px; opacity: 90%; margin-right: 10px;">Co-operative </label>
-                        <input type="radio" id="female" name="gender" value="female">
+                        <input type="radio" id="female" name="Ownership" value="female">
                         <label for="female" style="font-size: 14px; opacity: 90%; margin-right: 10px;">Industry Association</label>
-                        <input type="radio" id="other" name="gender" value="other">
+                        <input type="radio" id="other" name="Ownership" value="other">
                         <label for="other" style="font-size: 14px; opacity: 90%; margin-right: 10px;">Chamber of Commerce </label>
                     </div>
                   </div>
@@ -602,6 +602,11 @@
                     <div class="col form-group">
                       <label for="logo">Please insert your organisation's logo here </label>
                       <input name="logo" type="file" class="form-control-file" id="logo">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div data-netlify-recaptcha="true"></div>
                     </div>
                   </div>
                   <p>Once our team verifies your application, you'll receive a membership certificate in your inbox!</p><br>
