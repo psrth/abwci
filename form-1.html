@@ -106,9 +106,7 @@
           <div class="col-lg-12 entries">
             <div class="blog-comments">
               <div class="reply-form">
-               
-                
-                <form action="POST" method="POST" data-netlify="true">
+                <form action="POST" method="POST" data-netlify="true" name="Registration Form for Women in Business">
                     <h4>Tell us about yourself</h4>
                   <div class="row">
                     <div class="col-md-6 form-group">
@@ -120,7 +118,7 @@
                   </div>
                   <div class="row">
                     <div class="col-md-6 form-group">
-                      <input name="name" type="number" class="form-control" placeholder="Your Phone Number*">
+                      <input name="phone" type="number" class="form-control" placeholder="Your Phone Number*">
                     </div>
                     <div class="col-md-6 form-group">
                     
@@ -130,14 +128,14 @@
                   <div class="row">
                     <div class="col form-group">
                       <label for="exampleFormControlFile1">Please insert a picture of yourself here </label>
-                      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                      <input name="picture" type="file" class="form-control-file" id="exampleFormControlFile1">
                     </div>
                   </div><br>
 
                   <h4>About your Organisation</h4>
                   <div class="row">
                     <div class="col form-group">
-                      <input name="website" type="text" class="form-control" placeholder="Name of your Organisation">
+                      <input name="name of organisation" type="text" class="form-control" placeholder="Name of your Organisation">
                     </div>
                   </div>
                   <div class="row">
@@ -159,7 +157,7 @@
                   </div>
                   <div class="row">
                     <div class="col-md-6 form-group">
-                      <select id="sector" class="custom-select">
+                      <select id="sector" class="custom-select" name="sector">
                         <option selected>Sector</option>
                         <option value="Aerospace">Aerospace</option>
                         <option value="Aerospace and Defense">Aerospace and Defense</option>
@@ -312,7 +310,7 @@
                       </select>
                                           </div>
                     <div class="col-md-6 form-group">
-                      <select class="custom-select" id="region">
+                      <select class="custom-select" id="region" name="region">
                         <option selected>Region</option>
                         <option value="Global">Global</option>
                         <option value="Americas and the Caribbean">Americas and the Caribbean</option>
@@ -326,7 +324,7 @@
                   </div>
                   <div class="row">
                     <div class="col-md-6 form-group">
-                      <select class="custom-select" id="employees">
+                      <select class="custom-select" id="employees" name="employees">
                         <option selected>Number of employees</option>
                         <option value="self">Self-Employed</option>
                         <option value="1-10 employees">1-10 employees</option>
@@ -346,7 +344,7 @@
                   </div>
                   <div class="row">
                     <div class="col-md-6 form-group">
-                      <select id="country" name="country" class="custom-select">
+                      <select id="country" name="country" class="custom-select" name="country">
                         <option selected>Country</option>
                         <option value="Afganistan">Afghanistan</option>
                         <option value="Albania">Albania</option>
@@ -597,13 +595,13 @@
                      </select>
                     </div>
                     <div class="col-md-6 form-group">
-                      <input name="Company Address" type="text" class="form-control" placeholder="Organisation's Address">
+                      <input name="Oraganization Address" type="text" class="form-control" placeholder="Organisation's Address">
                     </div>
                   </div><br>
                   <div class="row">
                     <div class="col form-group">
                       <label for="logo">Please insert your organisation's logo here </label>
-                      <input type="file" class="form-control-file" id="logo">
+                      <input name="logo" type="file" class="form-control-file" id="logo">
                     </div>
                   </div>
                   <p>Once our team verifies your application, you'll receive a membership certificate in your inbox!</p><br>
