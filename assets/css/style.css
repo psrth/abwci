@@ -5,8 +5,8 @@
 
 :root {
 	--main: #191924;
-	--scd: #002147;
-	--scd2: #1361bb;
+	--scd: #8dcaf1;
+	--scd2: #2f5496;
 }
 
 html {
@@ -67,10 +67,6 @@ body {
 
 li {
 	padding-bottom: none;
-}
-
-a {
-	/* color: #948f8e; */
 }
 
 a:hover {
