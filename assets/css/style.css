@@ -14,7 +14,7 @@ html {
 }
 
 body {
-	font-family: "Open Sans", sans-serif; /* master body */
+	font-family: "Poppins", sans-serif; /* master body */
 }
 
 .icon-boxx h3 {
@@ -29,6 +29,7 @@ body {
 	border-radius: 10px;
 	background: #fff;
 	transition: all ease-in-out 0.3s;
+	margin-top: 1rem;
 }
 
 .icon-boxx h3:hover {
@@ -83,7 +84,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Proxima Nova", sans-serif; /* header fonts */
+	font-family: "Poppins", sans-serif; /* header fonts */
 }
 
 /*--------------------------------------------------------------
@@ -185,7 +186,7 @@ h6 {
 	font-weight: 700;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: "Proxima Nova", sans-serif; /* poppin fonts */
+	font-family: "Poppins", sans-serif; /* poppin fonts */
 	border-left: 8px solid var(--scd);
 }
 
@@ -225,7 +226,7 @@ h6 {
 	padding: 13px 0 15px 25px;
 	transition: 0.3s;
 	font-size: 14px;
-	font-family: "Proxima Nova", sans-serif; /* poppin fonts */
+	font-family: "Poppins", sans-serif; /* poppin fonts */
 }
 
 .nav-menu a:hover,
@@ -548,7 +549,7 @@ h6 {
 }
 
 #hero .btn-get-started {
-	font-family: "Proxima Nova", sans-serif;
+	font-family: "Poppins", sans-serif;
 	/* header fonts */
 	font-weight: 500;
 	font-size: 20px;
@@ -625,7 +626,7 @@ section {
 	margin-bottom: 20px;
 	padding-bottom: 20px;
 	position: relative;
-	font-family: "Proxima Nova", sans-serif; /* poppin fonts */
+	font-family: "Poppins", sans-serif; /* poppin fonts */
 }
 
 .section-title h2::after {
@@ -887,7 +888,7 @@ section {
 .counts .count-box p {
 	padding: 30px 0 0 0;
 	margin: 0;
-	font-family: "Proxima Nova", sans-serif; /* header fonts */
+	font-family: "Poppins", sans-serif; /* header fonts */
 	font-size: 14px;
 }
 
@@ -897,7 +898,7 @@ section {
 	margin-top: 20px;
 	color: #7a7a7a;
 	font-size: 15px;
-	font-family: "Proxima Nova", sans-serif; /* poppin fonts */
+	font-family: "Poppins", sans-serif; /* poppin fonts */
 	transition: ease-in-out 0.3s;
 }
 
@@ -969,7 +970,7 @@ section {
 	font-weight: 700;
 	font-size: 26px;
 	color: #545454;
-	font-family: "Proxima Nova", sans-serif; /* poppin fonts */
+	font-family: "Poppins", sans-serif; /* poppin fonts */
 	margin-bottom: 20px;
 }
 
@@ -1004,7 +1005,7 @@ section {
 	text-transform: uppercase;
 	display: block;
 	font-weight: 600;
-	font-family: "Proxima Nova", sans-serif; /* poppin fonts */
+	font-family: "Poppins", sans-serif; /* poppin fonts */
 	color: #545454;
 }
 
@@ -1209,7 +1210,7 @@ section {
 .faq .faq-list a {
 	display: block;
 	position: relative;
-	font-family: "Proxima Nova", sans-serif; /* poppin fonts */
+	font-family: "Poppins", sans-serif; /* poppin fonts */
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 500;
@@ -1397,7 +1398,7 @@ section {
 	transition: none;
 	font-size: 14px;
 	font-weight: 400;
-	font-family: "Proxima Nova", sans-serif; /* header fonts */
+	font-family: "Poppins", sans-serif; /* header fonts */
 	transition: 0.3s;
 }
 
@@ -2239,7 +2240,7 @@ section {
 	font-size: 14px;
 	line-height: 24px;
 	margin-bottom: 0;
-	font-family: "Proxima Nova", sans-serif; /* header fonts */
+	font-family: "Poppins", sans-serif; /* header fonts */
 	color: #fff;
 }
 
