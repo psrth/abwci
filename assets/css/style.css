@@ -29,7 +29,7 @@ html {
 
 body {
 	font-family: "Poppins", sans-serif; /* master body */
-	background-color: #fdefde;
+	background-color: #faf6eb;
 }
 
 .icon-boxx h3 {
@@ -211,7 +211,7 @@ h6 {
 }
 
 .box-boi {
-	background-color: #acd9ff;
+	background-color: #efbeed;
 	border: none !important;
 	outline: none;
 	border-radius: 20px;
@@ -225,7 +225,7 @@ h6 {
 }
 
 .php-email-form {
-	background-color: #acd9ff;
+	background-color: #fafafa;
 	border-radius: 10px;
 }
 
