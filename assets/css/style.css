@@ -215,7 +215,7 @@ h6 {
 	border: none !important;
 	outline: none;
 	border-radius: 10px;
-	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+	border: 1px solid #ededed !important;
 }
 
 .info-box {
