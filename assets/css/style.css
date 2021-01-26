@@ -5,7 +5,7 @@
 
 :root {
 	--main: #191924;
-	--scd: #8dcaf1;
+	--scd: #083870;
 	--scd2: #2f5496;
 }
 
@@ -13,14 +13,33 @@ html {
 	scroll-behavior: smooth;
 }
 
+.member {
+	border-radius: 10px;
+}
+
+#breadcrumbs {
+	background-color: #fdefde;
+}
+
+#breadcrumbs h2 {
+	margin-bottom: 0;
+	border-bottom: 4px solid var(--scd);
+	width: max-content;
+}
+
 body {
 	font-family: "Poppins", sans-serif; /* master body */
+	background-color: #fdefde;
 }
 
 .icon-boxx h3 {
 	color: black;
 	transition: ease all 0.2s;
 	font-size: 1.5rem;
+}
+
+.text {
+	margin-bottom: 0;
 }
 
 .icon-boxx {
@@ -92,6 +111,23 @@ h6 {
 	right: 15px;
 	bottom: 15px;
 	z-index: 99999;
+}
+
+#hero {
+	height: 85vh !important;
+}
+
+.carousel-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-container,
+#heroCarousel,
+.carousel-item {
+	height: 100% !important;
 }
 
 .back-to-top i {
@@ -172,6 +208,19 @@ h6 {
 	background: #fff;
 	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
 	position: relative;
+}
+
+.box-boi {
+	background-color: #fafafa;
+	border: none !important;
+	outline: none;
+	border-radius: 20px;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+}
+
+.icon-box {
+	background-color: #fafafa;
+	border-radius: 10px;
 }
 
 #header .logo h1 {
