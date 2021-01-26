@@ -218,6 +218,17 @@ h6 {
 	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
 }
 
+.info-box {
+	background-color: #fafafa;
+
+	border-radius: 10px;
+}
+
+.php-email-form {
+	background-color: #acd9ff;
+	border-radius: 10px;
+}
+
 .icon-box {
 	background-color: #fafafa;
 	border-radius: 10px;
